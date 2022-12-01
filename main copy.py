@@ -11,7 +11,7 @@ with open(pkl_filename, 'rb') as file:
 # Connect to server
 cnx = MySQLdb.connect(
      user = "mbkm_enose",
-     password = "pmPshMlorfRhF2stUeaom1tPOGY9tsK4",
+     password = "",
      database = "mbkm_enose_b3")
 
 # Get a cursor
